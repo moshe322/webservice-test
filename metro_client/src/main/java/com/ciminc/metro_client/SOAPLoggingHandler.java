@@ -1,10 +1,3 @@
-/*
- * Copyright (C) 2013 Center for Information Management, Inc.
- *
- * This program is proprietary.
- * Redistribution without permission is strictly prohibited.  
- * For more information, contact <http://www.ciminc.com>
- */
 package com.ciminc.metro_client;
 
 import java.io.PrintStream;

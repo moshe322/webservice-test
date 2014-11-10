@@ -1,10 +1,3 @@
-/*
- * Copyright (C) 2014 Center for Information Management, Inc.
- *
- * This program is proprietary.
- * Redistribution without permission is strictly prohibited.  
- * For more information, contact <http://www.ciminc.com>
- */
 package com.ciminc.test;
 
 import javax.jws.WebService;
