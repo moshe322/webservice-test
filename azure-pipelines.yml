@@ -7,6 +7,5 @@ pool:
   name: MOSHE
 
 steps:
-- script: 
-  - git clone --branch master https://github.com/moshe322/webservice-test.git
+- script: git clone --branch master https://github.com/moshe322/webservice-test.git
 
