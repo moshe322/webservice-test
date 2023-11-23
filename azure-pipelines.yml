@@ -12,14 +12,13 @@ steps:
 
 - task: Maven@4
   inputs:
-      mavenPomFile: 'pom.xml'
-      goals: 'clean install'
-      publishJUnitResults: true
-      testResultsFiles: '**/surefire-reports/TEST-*.xml'
-      javaHomeOption: 'JDKVersion'
-      mavenVersionOption: 'Path'
-      mavenSetM2Home: true
-      mavenAuthenticateFeed: true
-      effectivePomSkip: true
-      sonarQubeRunAnalysis: false
+    mavenPomFile: 'pom.xml'
+    goals: 'clean install'
+    publishJUnitResults: true
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    javaHomeOption: 'JDKVersion'
+    mavenVersionOption: 'Default'
+    mavenAuthenticateFeed: false
+    effectivePomSkip: false
+    sonarQubeRunAnalysis: false
  
